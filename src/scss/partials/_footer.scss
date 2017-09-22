@@ -1,0 +1,14 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: inline-block;
+    }
+  }
+}
