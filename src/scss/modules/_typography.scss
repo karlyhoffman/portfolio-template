@@ -13,3 +13,20 @@
 
 $font-style: 'Font-Name', sans-serif;
 $open-sans: 'Open Sans', sans-serif;
+
+h1, .h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+a {
+  color: $black;
+}
+
+.white-copy {
+  background-color: $black;
+  color: $white;
+  a {
+    color: $white;
+  }
+}

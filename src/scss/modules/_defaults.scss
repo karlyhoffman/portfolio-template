@@ -10,6 +10,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 300;
+  line-height: 30px;
   letter-spacing: 0.5px;
   color: black;
   // background: radial-gradient(ellipse at center, $base 0, $darken 70%, $back 100%);
@@ -18,7 +19,6 @@ body {
 body,html{
 	min-height: 100vh;
 }
-
-a {
-  color: black;
+.navbar {
+  margin-bottom: 0;
 }
