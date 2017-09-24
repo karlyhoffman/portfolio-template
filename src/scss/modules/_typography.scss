@@ -15,8 +15,13 @@ $font-style: 'Font-Name', sans-serif;
 $open-sans: 'Open Sans', sans-serif;
 
 h1, .h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 600;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 a {
@@ -24,7 +29,8 @@ a {
 }
 
 .white-copy {
-  background-color: $black;
+  position: fixed;
+  background-color: transparent;
   color: $white;
   a {
     color: $white;
