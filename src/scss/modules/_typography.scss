@@ -29,10 +29,13 @@ a {
 }
 
 .white-copy {
-  position: fixed;
-  background-color: transparent;
+  background-color: $light-black;
   color: $white;
   a {
     color: $white;
+  }
+
+  @media only screen and (min-width: 768px){
+    background-color: transparent;
   }
 }
