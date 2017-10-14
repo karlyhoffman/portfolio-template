@@ -1,10 +1,10 @@
 nav {
   right: 0;
-  position: absolute;
+  position: absolute !important;
   border-radius: 0 !important;
 
   &.white-copy {
-    background-color: $light-black;
+    background-color: transparent;
   }
 
   #navbarNav {
