@@ -4,12 +4,19 @@
 
   $(function () {
 
+    // About Page Nav -- white text
     var pathName = window.location.pathname;
-    if (pathName == '/about.html') {
-      $('nav, footer').addClass('white-copy');
-    } else {
-      $('nav, footer').removeClass('white-copy');
-    }
+    pathName == '/about.html' ? $('nav, footer').addClass('white-copy') : $('nav, footer').removeClass('white-copy');
+
+    // Homepage project list
+    var listItem = $('.project-list > li');
+    $(listItem).mouseenter(function() {
+      $(listItem).each(function() {
+        $( this ).removeClass('active');
+      });
+      $(this).addClass('active');
+    });
+
 
   });
 
