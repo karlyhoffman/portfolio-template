@@ -11,7 +11,7 @@ body.portfolio-template {
       li {
         padding: 5px 25px;
         white-space: nowrap;
-        @include transition(padding-left .3s ease-out);
+        @include transition(padding-left .25s ease-in);
 
         &.active {
           padding-left: 5vw;
