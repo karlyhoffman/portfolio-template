@@ -7,6 +7,10 @@ nav {
     background-color: transparent;
   }
 
+  .navbar-brand {
+    z-index: 10;
+  }
+
   #navbarNav {
     padding: 0;
     @media only screen and (min-width: 768px){
