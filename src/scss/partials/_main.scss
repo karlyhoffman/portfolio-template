@@ -3,26 +3,49 @@ body.portfolio-template {
   section.project-nav {
     display: inline-block;
 
-    ul {
-      list-style: none;
-      padding-top: 10vw;
-      padding-left: 10vw;
+    .list-cont {
+      margin-top: -25px;
+      padding-left: 0;
+      padding-right: 0;
 
-      li {
-        padding: 5px 25px;
-        white-space: nowrap;
-        @include transition(padding-left .25s ease-in);
+      ul {
+        list-style: none;
+        padding: 0;
 
-        &.active {
-          padding-left: 5vw;
+        li {
+          text-align: center;
         }
+      }
 
-        a {
-          &:hover {
-            color: $brick-red;
-            text-decoration: none;
+      /* Desktop View */
+      @media only screen and (min-width: 768px) {
+        margin-top: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+
+          ul {
+            list-style: none;
+            padding-top: 10vw;
+            padding-left: 10vw;
+
+            li {
+              padding: 7.5px 25px;
+              text-align: left;
+              white-space: nowrap;
+              @include transition(padding-left .3s ease-out);
+
+              &.active {
+                padding-left: 5vw;
+              }
+
+              a {
+                &:hover {
+                  color: $brick-red;
+                  text-decoration: none;
+                }
+              }
+            }
           }
-        }
       }
     }
   }
