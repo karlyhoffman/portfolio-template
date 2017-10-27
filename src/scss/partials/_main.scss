@@ -61,7 +61,25 @@ body.portfolio-template {
       position: absolute;
       height: 100%;
       width: 100%;
-      background-color: $red-purple;
+      @include transition(background-color .3s ease-out);
+
+      &.proj {
+        &--1 {
+          background-color: $red-purple;
+        }
+        &--2 {
+          background-color: $purple;
+        }
+        &--3 {
+          background-color: $gray;
+        }
+        &--4 {
+          background-color: $brick-red;
+        }
+        &--5 {
+          background-color: $crimson;
+        }
+      }
     }
 
     .img-cont {
