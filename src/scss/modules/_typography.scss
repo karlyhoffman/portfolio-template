@@ -26,16 +26,8 @@ h3 {
 
 a {
   color: $black;
-}
 
-.white-copy {
-  background-color: $carbon-black;
-  color: $white;
-  a {
-    color: $white;
-  }
-
-  @media only screen and (min-width: 768px){
-    background-color: transparent;
+  &:hover {
+    color: $red-purple;
   }
 }

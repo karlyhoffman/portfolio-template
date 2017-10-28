@@ -1,15 +1,36 @@
 nav {
   right: 0;
-  position: absolute !important;
+  position: fixed !important;
   border-radius: 0 !important;
 
-  &.white-copy {
-    background-color: transparent;
+  a {
+    color: $white;
+    &:hover {
+      color: $carbon-black;
+    }
+
+    &.dk {
+      color: $carbon-black;
+      &:hover {
+        color: $red-purple;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    color: $white;
   }
 
   .navbar-brand {
     z-index: 10;
     max-width: 50vw;
+    @media only screen and (min-width: 768px){
+      color: $carbon-black;
+    }
+
+    &.white-copy {
+      color: $white;
+    }
   }
 
   #navbarNav {

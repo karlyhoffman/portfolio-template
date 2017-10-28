@@ -6,7 +6,21 @@
 
     // About Page Nav -- white text
     var pathName = window.location.pathname;
-    pathName == '/about.html' ? $('nav, footer').addClass('white-copy') : $('nav, footer').removeClass('white-copy');
+    if (pathName == '/projects.html') {
+      $('.navbar-brand').addClass('white-copy');
+      $('.nav-link').addClass('dk');
+    } else if (pathName == '/about.html') {
+      $('.navbar-brand, footer').addClass('white-copy');
+    } else if (pathName == '/contact.html') {
+      $('.nav-link, .navbar-brand').addClass('dk');
+    } else {
+      $('.navbar-brand, footer').removeClass('white-copy');
+      $('.nav-link, .navbar-brand').removeClass('dk');
+    }
+
+
+    // pathName == '/about.html' ? $('.navbar-brand, footer').addClass('white-copy') : $('.navbar-brand, footer').removeClass('white-copy');
+    // pathName == '/contact.html' ? $('.nav-link, .navbar-brand').addClass('dk') : $('.nav-link, .navbar-brand').removeClass('dk');
 
     // Homepage project list
     var listItem = $('.project-list > li');
