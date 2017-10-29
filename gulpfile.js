@@ -155,6 +155,7 @@ gulp.task('build', ['html', 'css', 'js'], function(){
 
 gulp.task('default', ['build', 'browser-sync'], function () {
 	gulp.watch("src/scss/*/*.scss", ['css']);
+  gulp.watch("src/scss/*/*/*.scss", ['css']);
 	gulp.watch("src/js/*.js", ['js']);
   gulp.watch(["src/**/*.html"], ['html']);
 	//gulp.watch('app/assets/img/**', ['images']);
