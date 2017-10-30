@@ -4,6 +4,10 @@
 
   $(function () {
 
+    // About page footer
+    var pathName = window.location.pathname;
+    pathName == '/about.html' ? $('footer').addClass('white-copy') : $('footer').removeClass('white-copy');
+
     // Homepage project list
     var listItem = $('.project-list > li');
     $(listItem).mouseenter(function() {
