@@ -11,3 +11,8 @@
 - GreenSock Animation Platform (GSAP)
 - ScrollMagic
 - Gulp
+
+## Getting Started:
+1. Download or clone repository
+2. Run `npm install`
+3. Run `gulp`
