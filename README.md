@@ -1,7 +1,7 @@
 # Portfolio Template One
 
 ## Project Deliverables:
-- A responsive portfolio website that showcases various projects.
+- A responsive portfolio website to showcases various projects.
 
 ![Portfolio Template 1 Homepage](http://78.media.tumblr.com/5de86548331faba7283a6fbe9654b872/tumblr_oyubaiZ7FF1sq81swo1_1280.png "Portfolio Template 1 Homepage")
 
