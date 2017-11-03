@@ -29,7 +29,7 @@
    var controller = new ScrollMagic.Controller();
 
    $( ".reveal" ).each(function( index, elem ) {
-     var revealIn = TweenMax.fromTo(this, 0.3, { "opacity": "0", marginTop: 40 }, { "opacity": "1", marginTop:0, ease: Power0.easeNone });
+     var revealIn = TweenMax.fromTo(this, 0.4, { "opacity": "0", marginTop: 40 }, { "opacity": "1", marginTop:0, ease: Power0.easeNone });
      var revealScene = new ScrollMagic.Scene({triggerHook: "0.72", triggerElement: this}).setTween(revealIn).addTo(controller);
    });
 
