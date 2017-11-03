@@ -39,8 +39,13 @@ a {
 .white-copy {
   background-color: $carbon-black;
   color: $white;
+  
   a {
     color: $white;
+
+    &:hover {
+      color: $carbon-black;
+    }
   }
 
   @media only screen and (min-width: 768px){
