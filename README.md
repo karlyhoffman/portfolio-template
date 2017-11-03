@@ -3,7 +3,7 @@
 ## Project Deliverables:
 - A responsive portfolio website that showcases various projects.
 
-![Portfolio Template 1 Homepage](http://karlys-kamera.tumblr.com/private/image/167082298673/tumblr_oyubaiZ7FF1sq81sw "Portfolio Template 1 Homepage")
+![Portfolio Template 1 Homepage](http://78.media.tumblr.com/5de86548331faba7283a6fbe9654b872/tumblr_oyubaiZ7FF1sq81swo1_1280.png "Portfolio Template 1 Homepage")
 
 ## Technologies Used:
 - HTML 5
